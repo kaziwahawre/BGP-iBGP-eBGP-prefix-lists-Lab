@@ -26,7 +26,6 @@ This GNS3 lab demonstrates BGP routing between two autonomous systems (AS 100 an
 - **End hosts:** PCs to test connectivity
 - **Prefix Lists:**
   - AS 100 blocks advertising `192.168.10.192/26`
-  - AS 200 blocks advertising `192.168.20.192/26`
 
 ---
 
@@ -59,7 +58,6 @@ This GNS3 lab demonstrates BGP routing between two autonomous systems (AS 100 an
 
 - **AS 200 (Blue)**  
   - iBGP peers: R3, R4, R5
-  - Prefix-list blocks advertising `192.168.20.192/26`
 
 - **eBGP peering:**  
   - Between R5 (AS 200) and R6 (AS 100) over `30.1.1.0/30`
